@@ -7,6 +7,8 @@ up = keyboard_check(vk_up)
 
 shift = keyboard_check(vk_shift);
 up_release = keyboard_check_released(vk_up);
+
+attac = keyboard_check(ord("A"))
 #endregion
 
 #region State Machine
@@ -47,6 +49,11 @@ switch (state) {
 		//Check for dashing
 		if (shift && place_meeting(x, y + 1, o_solid)) {
 			state = player.dash;
+		}
+		
+		//Check for attacing
+		if (attac){
+			state = player.attac;	
 		}
 		
 		break;
@@ -97,5 +104,15 @@ switch (state) {
 			
 		break;
 	#endregion
+	
+	#region Attac State
+		case player.attac:
+			xspeed = 0;
+			sprite_index = s_player_attac_1q;
+			if (image_index == 5){
+				state = player.walk;
+			}
+		break;
+	#endregion;
 }
 #endregion

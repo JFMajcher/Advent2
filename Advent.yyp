@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Advent",
   "resources": [
+    {"id":{"name":"s_player_attack_3q","path":"sprites/s_player_attack_3q/s_player_attack_3q.yy",},"order":6,},
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":5,},
     {"id":{"name":"move2","path":"scripts/move2/move2.yy",},"order":4,},
     {"id":{"name":"move","path":"scripts/move/move.yy",},"order":1,},
@@ -11,6 +12,7 @@
     {"id":{"name":"s_player_walk","path":"sprites/s_player_walk/s_player_walk.yy",},"order":1,},
     {"id":{"name":"s_player_idle","path":"sprites/s_player_idle/s_player_idle.yy",},"order":0,},
     {"id":{"name":"s_player_dash","path":"sprites/s_player_dash/s_player_dash.yy",},"order":2,},
+    {"id":{"name":"s_player_attac_1q","path":"sprites/s_player_attac_1q/s_player_attac_1q.yy",},"order":7,},
     {"id":{"name":"jump","path":"scripts/jump/jump.yy",},"order":2,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
     {"id":{"name":"s_player_jump","path":"sprites/s_player_jump/s_player_jump.yy",},"order":4,},

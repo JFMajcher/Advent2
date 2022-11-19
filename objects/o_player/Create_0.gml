@@ -15,7 +15,8 @@ enum player {
 	walk,
 	dash,
 	run,
-	airtime
+	airtime,
+	attac
 }
 
 state = player.walk;
